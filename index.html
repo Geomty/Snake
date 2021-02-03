@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Play Snake</title>
+  </head>
+  <body>
+    <h1 style="text-align:center;font-size:50px;font-family:Arial">Snake</h1>
+    <p id="instructions" style="text-align:center;font-size:30px;font-family:Arial">How to play:<br>1. Move the snake with your arrow keys<br>2. Collect food to make the snake grow<br>3. If the snake crashes into the wall or itself, it's game over<br>Have fun!</p>
+    <center><canvas width="500" height="500" display="none" id="canvas" style="background-color:black"></canvas></center>
+    <p id="scoretext" style="text-align:center;font-size:30px;font-family:Arial"></p>
+    <center><button onclick="startGame()" id="button" style="text-align:center;font-size:30px">Click here to start</button></center>
+
+    <script src="./variables.js"></script>
+    <script src="./snake.js"></script>
+  </body>
+</html>
